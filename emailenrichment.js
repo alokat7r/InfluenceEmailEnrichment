@@ -33,7 +33,6 @@ const FetchEmailEnrichmentFunction = (emailId) => {
         } else {
             //This is not a gmail id so we will go for Gravatar.com to email enrichment data.
             let URI = gravatar.profile_url(emailId, { protocol: 'https' });
-            console.log(URI);
             fetch(URI, (error, meta, body) => {
                 if (!error) {
                     try {
