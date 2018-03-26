@@ -1,0 +1,15 @@
+{
+  "name": "influence",
+  "version": "1.0.1",
+  "description": "task to fetch email enrichment",
+  "main": "emailenrichment.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fetch": "1.1.0",
+    "gravatar": "1.6.0"
+  }
+}
