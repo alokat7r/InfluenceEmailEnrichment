@@ -4,7 +4,8 @@ This repo contains the code for getting email enrichment of any email id by usin
 
 TO USE THE MODULE :-
 
-1- import it like =< {emailEn} = require('./emailenrichment')
+1- import it like -  {emailEn} 
+
 2- call the emailEn function with emailId as parameter which will return a promise object.
 
 ******END******
